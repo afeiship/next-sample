@@ -23,5 +23,8 @@ describe('api.basic test', () => {
       var el = nx.sample(arr);
       expect(arr.includes(el)).toBe(true);
     }
+
+    console.log(nx.sample(arr,2));
+
   });
 });
