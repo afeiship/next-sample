@@ -1,5 +1,5 @@
 # next-sample
-> Get an element from array like target.
+> Get an/some element from array like target.
 
 ## installation
 ```bash
