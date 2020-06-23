@@ -1,14 +1,14 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var sample = function(inTarget) {
+  var sample = function (inTarget) {
     var length = inTarget.length;
     if (typeof length !== 'number') return;
     var index = Math.floor(Math.random() * length);
     return inTarget[index];
   };
 
-  nx.sample = function(inTarget, inCount) {
+  nx.sample = function (inTarget, inCount) {
     var count = inCount || 1;
     if (inTarget.length <= inCount) return inTarget;
     if (count === 1) {

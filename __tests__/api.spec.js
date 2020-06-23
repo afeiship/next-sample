@@ -2,7 +2,7 @@ const nx = require('@feizheng/next-js-core2');
 require('../src/next-sample');
 
 describe('api.basic test', () => {
-  test('nx.sample should returned an random element', function() {
+  test('nx.sample should returned an random element', function () {
     var arr = [
       1,
       2,
@@ -24,7 +24,6 @@ describe('api.basic test', () => {
       expect(arr.includes(el)).toBe(true);
     }
 
-    console.log(nx.sample(arr,2));
-
+    expect(nx.sample(arr, 2).length).toBe(2);
   });
 });

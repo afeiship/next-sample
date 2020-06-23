@@ -1,23 +1,23 @@
 /*!
  * name: @feizheng/next-sample
- * description: Get an element from array like target.
- * url: https://github.com/afeiship/next-sample
- * version: 1.1.0
- * date: 2020-04-27 10:12:04
+ * description: Get an/some element from array like target.
+ * homepage: https://github.com/afeiship/next-sample
+ * version: 1.1.1
+ * date: 2020-06-23T15:28:28.641Z
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var sample = function(inTarget) {
+  var sample = function (inTarget) {
     var length = inTarget.length;
     if (typeof length !== 'number') return;
     var index = Math.floor(Math.random() * length);
     return inTarget[index];
   };
 
-  nx.sample = function(inTarget, inCount) {
+  nx.sample = function (inTarget, inCount) {
     var count = inCount || 1;
     if (inTarget.length <= inCount) return inTarget;
     if (count === 1) {

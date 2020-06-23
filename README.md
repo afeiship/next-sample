@@ -1,6 +1,11 @@
 # next-sample
 > Get an/some element from array like target.
 
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+![size][size-image]
+![download][download-image]
+
 ## installation
 ```bash
 npm install -S @feizheng/next-sample
@@ -19,3 +24,15 @@ nx.sample(arr, 2); // [1, 2]
 nx.sample(arr, 2); // [3, 6]
 nx.sample(arr, 2); // [5, 6]
 ```
+
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-sample/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@feizheng/next-sample
+[version-url]: https://npmjs.org/package/@feizheng/next-sample
+
+[license-image]: https://img.shields.io/npm/l/@feizheng/next-sample
+[license-url]: https://github.com/afeiship/next-sample/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-sample
+[download-image]: https://img.shields.io/npm/dw/@feizheng/next-sample
