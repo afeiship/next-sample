@@ -3,8 +3,8 @@
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
-![size][size-image]
-![download][download-image]
+[![size][size-image]][size-url]
+[![download][download-image]][down-url]
 
 ## installation
 ```bash
@@ -35,4 +35,7 @@ Code released under [the MIT license](https://github.com/afeiship/next-sample/bl
 [license-url]: https://github.com/afeiship/next-sample/blob/master/LICENSE.txt
 
 [size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-sample
+[size-url]: https://github.com/afeiship/next-sample/blob/master/dist/next-sample.min.js
+
 [download-image]: https://img.shields.io/npm/dw/@feizheng/next-sample
+[download-url]: https://www.npmjs.com/package/@feizheng/next-sample
