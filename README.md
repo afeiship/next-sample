@@ -37,5 +37,5 @@ Code released under [the MIT license](https://github.com/afeiship/next-sample/bl
 [size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-sample
 [size-url]: https://github.com/afeiship/next-sample/blob/master/dist/next-sample.min.js
 
-[download-image]: https://img.shields.io/npm/dw/@feizheng/next-sample
+[download-image]: https://img.shields.io/npm/dm/@feizheng/next-sample
 [download-url]: https://www.npmjs.com/package/@feizheng/next-sample
