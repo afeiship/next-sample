@@ -3,7 +3,7 @@
  * description: Get an/some element from array like target.
  * homepage: https://github.com/afeiship/next-sample
  * version: 1.2.0
- * date: 2020-09-24T10:19:32.939Z
+ * date: 2020-09-24T10:20:02.773Z
  * license: MIT
  */
 
