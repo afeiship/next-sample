@@ -1,6 +1,7 @@
 (function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
+  var UNDEFINED = 'undefined';;
   var sample = function (inTarget) {
     var length = inTarget.length;
     if (typeof length !== 'number') return;
@@ -9,13 +10,12 @@
   };
 
   nx.sample = function (inTarget, inCount) {
-    var count = inCount || 1;
     if (inTarget.length <= inCount) return inTarget;
-    if (count === 1) {
+    if (typeof inCount === UNDEFINED) {
       return sample(inTarget);
     } else {
       var result = [];
-      while (result.length !== count) {
+      while (result.length !== inCount) {
         var value = sample(inTarget);
         if (result.indexOf(value) === -1) {
           result.push(value);
