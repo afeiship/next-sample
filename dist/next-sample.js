@@ -2,8 +2,8 @@
  * name: @feizheng/next-sample
  * description: Get an/some element from array like target.
  * homepage: https://github.com/afeiship/next-sample
- * version: 1.2.1
- * date: 2020-09-27T08:04:41.356Z
+ * version: 1.2.2
+ * date: 2020-11-06T00:53:45.267Z
  * license: MIT
  */
 
