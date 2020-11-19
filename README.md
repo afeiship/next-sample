@@ -8,7 +8,7 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-sample
+npm install -S @jswork/next-sample
 ```
 
 ## usage
@@ -29,14 +29,14 @@ nx.sample(arr, 2); // [5, 6]
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-sample/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-sample
-[version-url]: https://npmjs.org/package/@feizheng/next-sample
+[version-image]: https://img.shields.io/npm/v/@jswork/next-sample
+[version-url]: https://npmjs.org/package/@jswork/next-sample
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-sample
+[license-image]: https://img.shields.io/npm/l/@jswork/next-sample
 [license-url]: https://github.com/afeiship/next-sample/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-sample
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-sample
 [size-url]: https://github.com/afeiship/next-sample/blob/master/dist/next-sample.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-sample
-[download-url]: https://www.npmjs.com/package/@feizheng/next-sample
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-sample
+[download-url]: https://www.npmjs.com/package/@jswork/next-sample

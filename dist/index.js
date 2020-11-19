@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-sample
+ * description: Get an/some element from array like target.
+ * homepage: https://github.com/afeiship/next-sample
+ * version: 1.0.0
+ * date: 2020-11-19 08:39:19
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var sample = function (inTarget) {
     var length = inTarget.length;
     if (typeof length !== 'number') return;

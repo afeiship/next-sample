@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-sample
- * description: Get an/some element from array like target.
- * homepage: https://github.com/afeiship/next-sample
- * version: 1.2.2
- * date: 2020-11-06T00:53:45.267Z
- * license: MIT
- */
-
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var sample = function (inTarget) {
     var length = inTarget.length;
     if (typeof length !== 'number') return;
@@ -37,5 +28,3 @@
     module.exports = nx.sample;
   }
 })();
-
-//# sourceMappingURL=next-sample.js.map
