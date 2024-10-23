@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get an/some element from array like target.",
   "homepage": "https://js.work",
   "files": [
@@ -53,5 +53,11 @@
     "src/**/*.{js,jsx}": [
       "npm run pretty"
     ]
-  }
+  },
+  "keywords": [
+    "next",
+    "sample",
+    "random",
+    "rand"
+  ]
 }
